@@ -6,3 +6,10 @@
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)
 
+;; Add all of the folders from the plugins directory
+(let ((default-directory "~/.emacs.d/plugins/"))
+  (normal-top-level-add-subdirs-to-load-path))
+
+
+
+(require 'csharp-mode)

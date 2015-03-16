@@ -1,0 +1,3 @@
+[submodule "plugins/csharp-mode"]
+	path = plugins/csharp-mode
+	url = https://github.com/josteink/csharp-mode.git
