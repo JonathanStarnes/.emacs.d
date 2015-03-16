@@ -1,0 +1,3 @@
+[submodule "plugins/better-defaults"]
+	path = plugins/better-defaults
+	url = https://github.com/technomancy/better-defaults.git
