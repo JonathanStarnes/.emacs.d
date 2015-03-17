@@ -11,8 +11,9 @@
   (normal-top-level-add-subdirs-to-load-path))
 
 
-;; Require the plugins we want
+;; csharp-mode
 (require 'csharp-mode)
+
 ;; yasnippet setup
 (require 'yasnippet)
 (setq yas-snippet-dirs
@@ -20,4 +21,6 @@
         "~/.emacs.d/snippets"))                 ;; Personal snippets
 (yas-global-mode 1)
 
-
+;; company mode
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)

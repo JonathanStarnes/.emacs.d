@@ -7,3 +7,6 @@
 [submodule "plugins/yasnippet-snippets"]
 	path = plugins/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "plugins/company-mode"]
+	path = plugins/company-mode
+	url = https://github.com/company-mode/company-mode
