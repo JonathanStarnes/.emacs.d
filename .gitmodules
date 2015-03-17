@@ -10,3 +10,6 @@
 [submodule "plugins/company-mode"]
 	path = plugins/company-mode
 	url = https://github.com/company-mode/company-mode
+[submodule "plugins/melpa"]
+	path = plugins/melpa
+	url = https://github.com/milkypostman/melpa.git
