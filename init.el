@@ -38,6 +38,17 @@
 (add-hook 'csharp-mode-hook 'omnisharp-mode)
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-omnisharp))
+
+;; org-mode
+(add-to-list 'load-path "C:\Org\lisp")
+(add-to-list 'load-path "C:\Org\contrib")
+(require 'org)
+
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb) 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -50,3 +61,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
