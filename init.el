@@ -28,7 +28,7 @@
 (require 'yasnippet)
 (setq yas-snippet-dirs
       '("~/.emacs.d/plugins/yasnippet-snippets" ;; Default snippets
-        "~/.emacs.d/snippets"))                 ;; Personal snippets
+        "~/.emacs.d/plugins/mysnippets"))                 ;; Personal snippets
 (yas-global-mode 1)
 
 ;; company mode
