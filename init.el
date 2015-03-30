@@ -60,6 +60,8 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb) 
 
+;; theme
+(require 'emacs-color-themes)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -69,6 +71,7 @@
  '(org-agenda-files
    (quote
     ("c:/Users/jstarnes/Google Drive/Org/outlook.org" "c:/Users/jstarnes/Google Drive/Org/master.org"))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
