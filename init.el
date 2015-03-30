@@ -39,6 +39,7 @@
 (add-hook 'csharp-mode-hook 'omnisharp-mode)
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-omnisharp))
+
 ;;
 (defvar slack-token "xoxb-3617248270-CuTTL3hCYC6uhJxK2aIIM7Q2")
 (defvar slack-username "Jonathan")
@@ -49,6 +50,15 @@
 (add-hook `org-mode `flyspell-mode)
 (autoload 'flyspell-mode "flyspell" "On-the-fly spelling checker." t)
 
+;; org-mode
+(add-to-list 'load-path "C:\Org\lisp")
+(add-to-list 'load-path "C:\Org\contrib")
+(require 'org)
+
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb) 
 
 
 (custom-set-variables
@@ -65,3 +75,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
