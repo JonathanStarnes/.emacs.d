@@ -1,0 +1,6 @@
+# name: Standup Status
+# key: sus
+# --
+$1				:${1:Name}:
+- Yesterday
+  - $0

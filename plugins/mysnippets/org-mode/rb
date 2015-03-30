@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: rb
+# key: rb
+# --
+- Road Blocks
+  - ${1:NONE}
