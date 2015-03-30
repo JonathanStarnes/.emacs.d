@@ -13,3 +13,6 @@
 [submodule "plugins/melpa"]
 	path = plugins/melpa
 	url = https://github.com/milkypostman/melpa.git
+[submodule "plugins/emacs-color-themes"]
+	path = plugins/emacs-color-themes
+	url = https://github.com/owainlewis/emacs-color-themes.git
