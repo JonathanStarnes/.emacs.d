@@ -1,3 +1,4 @@
+
 ;; Turn off mouse interface early in startup to avoid momentary display
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
@@ -38,12 +39,26 @@
 (add-hook 'csharp-mode-hook 'omnisharp-mode)
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-omnisharp))
+;;
+(defvar slack-token "xoxb-3617248270-CuTTL3hCYC6uhJxK2aIIM7Q2")
+(defvar slack-username "Jonathan")
+
+;; Set aspell as ispell program
+(setq-default ispell-program-name "aspell")
+;; Flyspell
+(add-hook `org-mode `flyspell-mode)
+(autoload 'flyspell-mode "flyspell" "On-the-fly spelling checker." t)
+
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files (quote ("c:/test/test.org"))))
+ '(org-agenda-files
+   (quote
+    ("c:/Users/jstarnes/Google Drive/Org/outlook.org" "c:/Users/jstarnes/Google Drive/Org/master.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

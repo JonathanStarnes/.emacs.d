@@ -13,3 +13,6 @@
 [submodule "plugins/melpa"]
 	path = plugins/melpa
 	url = https://github.com/milkypostman/melpa.git
+[submodule "plugins/slack-el"]
+	path = plugins/slack-el
+	url = https://github.com/ober/slack-el.git

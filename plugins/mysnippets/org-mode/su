@@ -1,0 +1,6 @@
+# name: Standup
+# key: su
+# --
+Standup `(insert (format-time-string "%A"))`
+<`(insert (format-time-string "%Y-%m-%d %a %T"))`>
+$0
